@@ -17,5 +17,14 @@
   "dependencies": {
     "chalk": "^2.3.2",
     "figlet": "^1.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaidelpino/P2_Quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anaidelpino/P2_Quiz/issues"
+  },
+  "homepage": "https://github.com/anaidelpino/P2_Quiz#readme"
 }

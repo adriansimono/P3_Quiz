@@ -104,12 +104,12 @@ exports.testCmd= (rl,id) => {
                 respuesta2=quiz.answer.toLowerCase();
 
                 if(respuesta2===respuesta.trim()) {
-                    log("Su respuesta es: CORRECTA",);
+                    log("Su respuesta es: CORRECTA");
 
 
                     biglog('CORRECTO', 'green');
                     } else {
-                    log("Su respuesta es: INCORRECTA",);
+                    log("Su respuesta es: INCORRECTA");
 
 
                     biglog('INCORRECTO', 'red');
@@ -130,50 +130,56 @@ exports.playCmd= rl => {
     let score = 0;
 
     let toBeResolved=[];
-    toBeResolved=model.getAll();
+    for(i=0;i<model.getAll().length;i++){
+        toBeResolved[i]=i;
+    }
 
         const playOne = () =>{
         if(toBeResolved.length===0){
             log(`No hay más preguntas`);
             log(`Tu puntuación es: ${score} ${colorize('=>', 'magenta')}`);
             rl.prompt();
+            return;
         }else{
 
-            var indice = Math.floor(Math.random()*toBeResolved.length-1);
+            let id = Math.floor(Math.random()*toBeResolved.length-1);
+            indice=toBeResolved[id];
+            toBeResolved.splice(id,1);
 
             let quiz= model.getByIndex(indice);
 
-            rl.question(quiz.question,answer => {
-            log(`Introduzca una respuesta:`);
+            rl.question(colorize(quiz.question+ ' ', 'red'),answer => {
                     respuesta = answer.toLowerCase();
                     respuesta2 = quiz.answer.toLowerCase();
-                if(score=== model.getAll()){
-                    log(`No hay nada más que preguntar. Tu puntuación es: `);
-                    biglog(score, 'red');
-                    rl.prompt();
-                }else if (respuesta2 === respuesta.trim()) {
-                        toBeResolved.splice(indice,1);
-                    log("Su respuesta es: CORRECTA",);
+
+                 if (respuesta2 === respuesta.trim()) {
+                     score++;
+                        //toBeResolved.splice(indice,1);
+                    console.log('Su respuesta es: CORRECTA');
 
 
                     biglog('CORRECTO', 'green');
-                        score++;
+
                         log(`Llevas: ${score} ${colorize('=>', 'magenta')} aciertos.`);
 
 
                         playOne();
+                        rl.prompt();
+                        return;
                     } else {
-                    log("Su respuesta es: INCORRECTA",);
+                    console.log('Su respuesta es: INCORRECTA');
 
 
                     biglog('INCORRECTO', 'red');
                         log(`Tu puntuación es: ${score} ${colorize('=>', 'magenta')}.`);
                         rl.prompt();
+                        return;
                     }
             });
 
         }
     }
+    rl.prompt();
     playOne();
 };
 
