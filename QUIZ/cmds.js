@@ -126,62 +126,46 @@ exports.testCmd= (rl,id) => {
     }
 };
 
-exports.playCmd= rl => {
+exports.playCmd = rl => {
     let score = 0;
 
-    let toBeResolved=[];
-    for(i=0;i<model.getAll().length;i++){
-        toBeResolved[i]=i;
+    let toBeResolved = [];
+
+    for (var i=0; i<model.count() ; i++){
+        toBeResolved.push(i);
     }
-
-        const playOne = () =>{
-        if(toBeResolved.length===0){
-            log(`No hay más preguntas`);
-            log(`Tu puntuación es: ${score} ${colorize('=>', 'magenta')}`);
+    const playOne = () =>{
+        if (toBeResolved.length == 0){
+            log("No hay más preguntas.");
+            log("Fin del examen. Aciertos:");
+            biglog(score, "magenta");
             rl.prompt();
-            return;
-        }else{
+        }
+        else {
 
-            let id = Math.floor(Math.random()*toBeResolved.length-1);
-            indice=toBeResolved[id];
-            toBeResolved.splice(id,1);
+            let id_random = Math.floor(Math.random()*toBeResolved.length);
+            indice = toBeResolved.splice(id_random, 1);
+            let quiz = model.getByIndex(indice);
+            rl.question(`${colorize(quiz.question, "red")}: `, answer => {
 
-            let quiz= model.getByIndex(indice);
-
-            rl.question(colorize(quiz.question+ ' ', 'red'),answer => {
-                    respuesta = answer.toLowerCase();
-                    respuesta2 = quiz.answer.toLowerCase();
-
-                 if (respuesta2 === respuesta.trim()) {
-                     score++;
-                        //toBeResolved.splice(indice,1);
-                    console.log('Su respuesta es: CORRECTA');
-
-
-                    biglog('CORRECTO', 'green');
-
-                        log(`Llevas: ${score} ${colorize('=>', 'magenta')} aciertos.`);
-
-
-                        playOne();
-                        rl.prompt();
-                        return;
-                    } else {
-                    console.log('Su respuesta es: INCORRECTA');
-
-
-                    biglog('INCORRECTO', 'red');
-                        log(`Tu puntuación es: ${score} ${colorize('=>', 'magenta')}.`);
-                        rl.prompt();
-                        return;
-                    }
+                respuesta = answer.toLowerCase().trim();
+                respuesta2 = quiz.answer.toLowerCase().trim();
+                if (respuesta === respuesta2){
+                    score++;
+                    log(`CORRECTO - Lleva ${score} aciertos.`);
+                    playOne();
+                }else{
+                    log("INCORRECTO.");
+                    log("Fin del examen. Aciertos:");
+                    biglog(score, "magenta");
+                    rl.prompt();
+                }
             });
-
         }
     }
-    rl.prompt();
     playOne();
 };
+
 
 exports.creditsCmd= rl => {
     log('Autores de la práctica:');
