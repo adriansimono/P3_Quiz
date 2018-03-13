@@ -90,40 +90,32 @@ exports.editCmd= (rl,id) => {
     }
 };
 
-exports.testCmd= (rl,id) => {
-    if (typeof id === "undefined") {
-        errorlog(`Falta el parámetro id`);
+exports.testCmd = (rl, id) => {
+    if(typeof id === "undefined"){
+        errorlog(`Falta el parámetro id.`);
         rl.prompt();
     }else{
         try{
             const quiz = model.getByIndex(id);
-
-            rl.question( colorize( quiz.question, ' red' ) ,answer =>{
-                console.log('Su respuesta es: ');
-                respuesta=answer.toLowerCase();
-                respuesta2=quiz.answer.toLowerCase();
-
-                if(respuesta2===respuesta.trim()) {
-                    log("Su respuesta es: CORRECTA");
-
-
-                    biglog('CORRECTO', 'green');
-                    } else {
-                    log("Su respuesta es: INCORRECTA");
-
-
-                    biglog('INCORRECTO', 'red');
-                    }
-                    rl.prompt();
-
-
+            rl.question(`${colorize(quiz.question, 'red')}${colorize('? ', 'red')}`, answer => {
+                if( (answer.toLowerCase().trim())===(quiz.answer.toLowerCase().trim())){
+                    log('Su respuesta es correcta.');
+                    biglog('Correcta', 'green');
+                }
+                else{
+                    log('Su respuesta es incorrecta.');
+                    biglog('Incorrecta', 'red');
+                }
+                rl.prompt();
             });
+        }
 
-        }catch(error){
+        catch(error){
             errorlog(error.message);
             rl.prompt();
         }
     }
+
 };
 
 exports.playCmd = rl => {
