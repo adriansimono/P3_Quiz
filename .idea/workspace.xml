@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e37e4994-7e3d-4d62-a065-8d8e6dac849c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/QUIZ/.idea/QUIZ.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/cmds.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/model.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/ansi-styles/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/ansi-styles/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/ansi-styles/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/ansi-styles/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/chalk/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/chalk/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/chalk/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/chalk/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/chalk/templates.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/chalk/types/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/color-convert/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/color-convert/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/color-convert/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/color-convert/conversions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/color-convert/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/color-convert/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/color-convert/route.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/color-name/.eslintrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/color-name/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/color-name/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/color-name/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/color-name/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/color-name/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/color-name/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/escape-string-regexp/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/escape-string-regexp/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/escape-string-regexp/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/escape-string-regexp/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/Gruntfile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/doc/figfont.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/examples/front-end/index.htm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/examples/front-end/jquery-1.7.2.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/examples/node/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/examples/node/appSync.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/1Row.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/3-D.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/3D Diagonal.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/3D-ASCII.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/3x5.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/4Max.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/5 Line Oblique.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/AMC 3 Line.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/AMC 3 Liv1.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/AMC AAA01.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/AMC Neko.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/AMC Razor.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/AMC Razor2.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/AMC Slash.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/AMC Slider.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/AMC Thin.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/AMC Tubes.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/AMC Untitled.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/ANSI Shadow.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/ASCII New Roman.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Acrobatic.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Alligator.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Alligator2.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Alpha.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Alphabet.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Arrows.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Avatar.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/B1FF.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/B1FF.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Banner.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Banner3-D.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Banner3.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Banner4.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Barbwire.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Basic.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Bear.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Bell.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Benjamin.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Big Chief.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Big Money-ne.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Big Money-nw.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Big Money-se.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Big Money-sw.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Big.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Bigfig.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Binary.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Block.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Blocks.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Bloody.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Bolger.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Braced.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Bright.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Broadway KB.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Broadway.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Bubble.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Bulbhead.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Caligraphy.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Caligraphy2.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Calvin S.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Cards.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Catwalk.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Chiseled.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Chunky.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Coinstak.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Cola.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Colossal.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Computer.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Contessa.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Contrast.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Cosmike.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Crawford.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Crawford2.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Crazy.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Cricket.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Cursive.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Cyberlarge.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Cybermedium.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Cybersmall.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Cygnet.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/DANC4.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/DOS Rebel.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/DWhistled.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Dancing Font.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Decimal.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Def Leppard.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Delta Corps Priest 1.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Diamond.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Diet Cola.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Digital.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Doh.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Doom.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Dot Matrix.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Double Shorts.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Double.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Dr Pepper.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Efti Chess.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Efti Font.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Efti Italic.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Efti Piti.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Efti Robot.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Efti Wall.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Efti Water.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Electronic.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Elite.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Epic.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Fender.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Filter.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Fire Font-k.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Fire Font-s.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Flipped.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Flower Power.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Four Tops.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Fraktur.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Fun Face.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Fun Faces.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Fuzzy.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Georgi16.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Georgia11.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Ghost.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Ghoulish.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Glenyn.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Goofy.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Gothic.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Graceful.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Gradient.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Graffiti.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Greek.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Heart Left.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Heart Right.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Henry 3D.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Hex.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Hieroglyphs.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Hollywood.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Horizontal Left.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Horizontal Right.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/ICL-1900.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Impossible.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Invita.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Isometric1.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Isometric2.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Isometric3.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Isometric4.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Italic.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Ivrit.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/JS Block Letters.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/JS Bracket Letters.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/JS Capital Curves.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/JS Cursive.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/JS Stick Letters.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Jacky.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Jazmine.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Jerusalem.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Katakana.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Kban.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Keyboard.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Knob.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Konto Slant.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Konto.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/LCD.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Larry 3D 2.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Larry 3D.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Lean.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Letters.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Lil Devil.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Line Blocks.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Linux.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Lockergnome.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Madrid.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Marquee.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Maxfour.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Merlin1.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Merlin2.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Mike.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Mini.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Mirror.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Mnemonic.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Modular.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Morse.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Morse2.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Moscow.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Mshebrew210.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Muzzle.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/NScript.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/NT Greek.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/NV Script.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Nancyj-Fancy.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Nancyj-Improved.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Nancyj-Underlined.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Nancyj.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Nipples.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/O8.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/OS2.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Octal.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Ogre.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Old Banner.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Patorjk's Cheese.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Patorjk-HeX.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Pawp.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Peaks Slant.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Peaks.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Pebbles.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Pepper.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Poison.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Puffy.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Puzzle.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Pyramid.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Rammstein.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Rectangles.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Red Phoenix.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Relief.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Relief2.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Reverse.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Roman.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Rot13.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Rot13.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Rotated.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Rounded.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Rowan Cap.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Rozzo.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Runic.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Runyc.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/S Blood.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/SL Script.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Santa Clara.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Script.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Serifcap.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Shadow.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Shimrod.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Short.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Slant Relief.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Slant.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Slide.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Small Caps.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Small Isometric1.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Small Keyboard.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Small Poison.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Small Script.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Small Shadow.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Small Slant.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Small Tengwar.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Small.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Soft.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Speed.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Spliff.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Stacey.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Stampate.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Stampatello.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Standard.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Star Strips.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Star Wars.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Stellar.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Stforek.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Stick Letters.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Stop.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Straight.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Stronger Than All.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Sub-Zero.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Swamp Land.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Swan.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Sweet.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/THIS.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Tanja.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Tengwar.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Term.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Test1.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/The Edge.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Thick.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Thin.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Thorned.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Three Point.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Ticks Slant.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Ticks.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Tiles.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Tinker-Toy.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Tombstone.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Train.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Trek.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Tsalagi.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Tubular.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Twisted.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Two Point.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/USA Flag.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Univers.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Varsity.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Wavy.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Weird.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Wet Letter.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Whimsy.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/fonts/Wow.flf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/lib/figlet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/lib/node-figlet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/test/expected/dancingFont" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/test/expected/dancingFontReverse" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/test/expected/graffiti" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/test/expected/standard" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/figlet/test/figlet_test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/has-flag/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/has-flag/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/has-flag/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/has-flag/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/supports-color/browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/supports-color/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/supports-color/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/supports-color/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/node_modules/supports-color/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/out.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QUIZ/quizzes.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmds.js" afterPath="$PROJECT_DIR$/cmds.js" />
+      <change beforePath="$PROJECT_DIR$/model.js" afterPath="$PROJECT_DIR$/model.js" />
+      <change beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1520942077185" expanded="true" signature="219:339" ph="{&quot;input&quot;: process.stdin...}" />
+                <marker date="1520942077185" expanded="true" signature="341:434" ph="{...}" />
+                <marker date="1520942077185" expanded="true" signature="604:641" ph="{...}" />
+                <marker date="1520942077185" expanded="true" signature="1765:1783" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cmds.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cmds.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="255" column="13" lean-forward="false" selection-start-line="255" selection-start-column="13" selection-end-line="255" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="out.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-178">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quizzes.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quizzes.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="213" lean-forward="false" selection-start-line="0" selection-start-column="213" selection-end-line="0" selection-end-column="213" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/model.js" />
+        <option value="$PROJECT_DIR$/cmds.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="678" />
+    <option name="y" value="84" />
+    <option name="width" value="669" />
+    <option name="height" value="580" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="P3_Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P3_Quiz" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e37e4994-7e3d-4d62-a065-8d8e6dac849c" name="Default" comment="" />
+      <created>1520947192630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520947192630</updated>
+      <workItem from="1520947194406" duration="959000" />
+      <workItem from="1520948169118" duration="599000" />
+      <workItem from="1520949081353" duration="198000" />
+      <workItem from="1520949334196" duration="115000" />
+      <workItem from="1520951157068" duration="8834000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10705000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1366" height="708" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8372093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520942077185" expanded="true" signature="219:339" ph="{&quot;input&quot;: process.stdin...}" />
+            <marker date="1520942077185" expanded="true" signature="341:434" ph="{...}" />
+            <marker date="1520942077185" expanded="true" signature="604:641" ph="{...}" />
+            <marker date="1520942077185" expanded="true" signature="1765:1783" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520942077185" expanded="true" signature="219:339" ph="{&quot;input&quot;: process.stdin...}" />
+            <marker date="1520942077185" expanded="true" signature="341:434" ph="{...}" />
+            <marker date="1520942077185" expanded="true" signature="604:641" ph="{...}" />
+            <marker date="1520942077185" expanded="true" signature="1765:1783" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520942077185" expanded="true" signature="219:339" ph="{&quot;input&quot;: process.stdin...}" />
+            <marker date="1520942077185" expanded="true" signature="341:434" ph="{...}" />
+            <marker date="1520942077185" expanded="true" signature="604:641" ph="{...}" />
+            <marker date="1520942077185" expanded="true" signature="1765:1783" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520942077185" expanded="true" signature="219:339" ph="{&quot;input&quot;: process.stdin...}" />
+            <marker date="1520942077185" expanded="true" signature="341:434" ph="{...}" />
+            <marker date="1520942077185" expanded="true" signature="604:641" ph="{...}" />
+            <marker date="1520942077185" expanded="true" signature="1765:1783" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QUIZ/model.js" />
+    <entry file="file://$PROJECT_DIR$/out.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quizzes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="213" lean-forward="false" selection-start-line="0" selection-start-column="213" selection-end-line="0" selection-end-column="213" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520942077185" expanded="true" signature="219:339" ph="{&quot;input&quot;: process.stdin...}" />
+            <marker date="1520942077185" expanded="true" signature="341:434" ph="{...}" />
+            <marker date="1520942077185" expanded="true" signature="604:641" ph="{...}" />
+            <marker date="1520942077185" expanded="true" signature="1765:1783" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmds.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="255" column="13" lean-forward="false" selection-start-line="255" selection-start-column="13" selection-end-line="255" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -8,15 +8,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "quiz",
-    "core",
-    "node"
+    "CORE",
+    "QUIT"
   ],
   "author": "Ana de la Iglesia y Adrián Simón",
   "license": "Unlicense",
   "dependencies": {
-    "chalk": "^2.3.2",
-    "figlet": "^1.2.0"
+    "chalk": "^2.3.1",
+    "figlet": "^1.2.0",
+    "sequelize": "^4.36.1",
+    "sqlite3": "^3.1.13"
   }
 }
-
