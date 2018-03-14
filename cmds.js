@@ -89,10 +89,12 @@ exports.addCmd = rl => {
         })
         .then((quiz) => {
             log(`${colorize('Se ha añadido','magenta')}: ${quiz.question} ${colorize('=>','magenta')} ${quiz.answer}`);
+        rl.prompt();
         })
         .catch(Sequelize.ValidationError, error => {
             errorlog('El quiz es erroneo:');
             error.errors.forEach(({message})=> errorlog(message));
+            rl.prompt();
         })
         .catch(error => {
             errorlog(error.message);
@@ -131,11 +133,11 @@ exports.editCmd= (rl,id) => {
                     return makeQuestion(rl, 'Introduzca la respuesta: ')
                         .then(a => {
                             quiz.question =q;
-                            quiz.question = a;
+                            quiz.answer = a;
                             return quiz;
                         });
                 });
-        })
+            })
             .then(quiz => {
                 return quiz.save();
             })
@@ -188,9 +190,9 @@ exports.playCmd = rl => {
     let toBeResolved = [];
 
     const playOne = () =>{
-       return Promise.resolve()
-            .then(() => {
-        if (toBeResolved.length == 0){
+       return new Promise((resolve, reject) => {
+
+        if (toBeResolved.length == 0) {
             log("No hay más preguntas.");
             log("Fin del examen. Aciertos:");
             biglog(score, "magenta");
@@ -212,7 +214,7 @@ exports.playCmd = rl => {
                         biglog("Correcto", 'green');
                         log(`CORRECTO - Lleva ${score} aciertos.`);
                         playOne();
-                        
+
                     } else {
                         log("INCORRECTO.");
                         biglog("Incorrecto", 'red');
@@ -231,7 +233,7 @@ exports.playCmd = rl => {
             return playOne();
         })
         .catch(error => {
-            errorlog(error.message);
+            console.log(error);
         })
         .then(()=>{
             console.log(score);

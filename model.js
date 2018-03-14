@@ -19,11 +19,11 @@ sequelize.sync()
     .then(count=>{
         if(!count){
             return sequelize.models.quiz.bulkCreate([
-                {question: "Capital de Italia", answer: "Roma"},
-                {question: "Capital de España", answer: "Madrid"},
-                {question: "Capital de Portugal", answer: "Lisboa"},
-                {question: "1+1", answer: "2"},
-                {question: "cuent cent hay mit de med eur", answer: "25"}
+                {question: "Capital de Italia? ", answer: "Roma"},
+                {question: "Capital de España? ", answer: "Madrid"},
+                {question: "Capital de Portugal? ", answer: "Lisboa"},
+                {question: "1+1= ", answer: "2"},
+                {question: "cuent cent hay mit de med eur? ", answer: "25"}
             ]);
         }
     })
