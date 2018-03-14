@@ -186,15 +186,9 @@ exports.playCmd = rl => {
     let score = 0;
 
     let toBeResolved = [];
-    //let quizzes=model.getAll();
-
-    //for (let i=0; i<quizzes.length ; i++){
-      //  toBeResolved.push(i);
-    //}
-
 
     const playOne = () =>{
-        return Promise.resolve()
+       return Promise.resolve()
             .then(() => {
         if (toBeResolved.length == 0){
             log("No hay más preguntas.");
@@ -247,8 +241,8 @@ exports.playCmd = rl => {
 
 exports.creditsCmd= rl => {
     log('Autores de la práctica:');
-    log('Ana de la Iglesia','green');
-    log('Adrián Simón','green');
+    log('ANA DE LA IGLESIA','green');
+    log('ADRIÁN SIMÓN','green');
     rl.prompt();
 
 }
