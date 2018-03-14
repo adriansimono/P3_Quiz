@@ -11,7 +11,7 @@
     "CORE",
     "QUIT"
   ],
-  "author": "Ana de la Iglesia y Adrián Simón",
+  "author": "ANA DE LA IGLESIA y ADRIÁN SIMÓN",
   "license": "Unlicense",
   "dependencies": {
     "chalk": "^2.3.1",
