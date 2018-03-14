@@ -212,11 +212,13 @@ exports.playCmd = rl => {
                         biglog("Correcto", 'green');
                         log(`CORRECTO - Lleva ${score} aciertos.`);
                         playOne();
+                        
                     } else {
                         log("INCORRECTO.");
                         biglog("Incorrecto", 'red');
                         log("Fin del examen. Aciertos:");
                         biglog(score, "magenta");
+                        rl.prompt();
                     }
                 })
         })

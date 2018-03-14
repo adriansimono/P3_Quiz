@@ -19,7 +19,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1168">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <marker date="1520942077185" expanded="true" signature="219:339" ph="{&quot;input&quot;: process.stdin...}" />
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cmds.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cmds.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cmds.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4536">
-              <caret line="252" column="1" lean-forward="true" selection-start-line="252" selection-start-column="1" selection-end-line="252" selection-end-column="1" />
+            <state relative-caret-position="450">
+              <caret line="214" column="24" lean-forward="false" selection-start-line="214" selection-start-column="24" selection-end-line="214" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quizzes.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="quizzes.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quizzes.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -186,12 +186,12 @@
       <workItem from="1520949081353" duration="198000" />
       <workItem from="1520949334196" duration="115000" />
       <workItem from="1520951157068" duration="9237000" />
-      <workItem from="1521036984923" duration="2559000" />
+      <workItem from="1521036984923" duration="2957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13667000" />
+    <option name="totallyTimeSpent" value="14065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="708" extended-state="6" />
@@ -398,27 +398,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QUIZ/model.js" />
-    <entry file="file://$PROJECT_DIR$/cmds.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4536">
-          <caret line="252" column="1" lean-forward="true" selection-start-line="252" selection-start-column="1" selection-end-line="252" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1168">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520942077185" expanded="true" signature="219:339" ph="{&quot;input&quot;: process.stdin...}" />
-            <marker date="1520942077185" expanded="true" signature="341:434" ph="{...}" />
-            <marker date="1520942077185" expanded="true" signature="604:641" ph="{...}" />
-            <marker date="1520942077185" expanded="true" signature="1765:1783" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -447,6 +426,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="213" lean-forward="false" selection-start-line="0" selection-start-column="213" selection-end-line="0" selection-end-column="213" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520942077185" expanded="true" signature="219:339" ph="{&quot;input&quot;: process.stdin...}" />
+            <marker date="1520942077185" expanded="true" signature="341:434" ph="{...}" />
+            <marker date="1520942077185" expanded="true" signature="604:641" ph="{...}" />
+            <marker date="1520942077185" expanded="true" signature="1765:1783" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmds.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="214" column="24" lean-forward="false" selection-start-line="214" selection-start-column="24" selection-end-line="214" selection-end-column="24" />
           <folding />
         </state>
       </provider>
